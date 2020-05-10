@@ -17,7 +17,7 @@ namespace QueueApp
             CloudQueue queue = queueClient.GetQueueReference("blog-queue");
 
             //if (args.Length > 0)
-            if (false)
+            if (true)
             {
                 //string value = String.Join(" ", args);
                 string value = "test";
